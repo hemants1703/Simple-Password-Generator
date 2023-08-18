@@ -5,8 +5,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Free Password Generator</title>
+
+    <!-- OG meta tags -->
+    <meta property="og:title" content="Secure Password Generator">
+    <meta property="og:description"
+        content="A free secure password generator that generates a random password for you which is very tough to hack.">
+    <meta property="og:image" content="https://hemantsharma.dev/Simple-Password-Generator/img/og/og-img.png">
+    <meta property="og:url" content="https://hemantsharma.dev/Simple-Password-Generator/">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter meta tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <!-- <meta property="twitter:domain" content="password-generator-1.herokuapp.com"> -->
+    <meta property="twitter:url" content="https://hemantsharma.dev/Simple-Password-Generator/">
+    <meta name="twitter:title" content="Secure Password Generator">
+    <meta name="twitter:description"
+        content="A free secure password generator that generates a random password for you which is very tough to hack.">
+    <meta name="twitter:image" content="https://hemantsharma.dev/Simple-Password-Generator/img/og/og-img.png">
+
+    <!-- Favicon -->
+    <link rel="icon" href="./img/favicon.ico" type="image/x-icon" />
+
+    <!-- Stylesheet -->
     <link rel="stylesheet" href="styles.css">
+
+    <title>Secure Password Generator</title>
 </head>
 
 <body>
@@ -15,7 +38,8 @@
             <h1>Password Generator</h1>
             <div class="password-field">
                 <h2 id="password-field">Click the button below</h2>
-                <div class="copy-field hidden" onclick="copyToClipboard()" title="Copy to Clipboard"><img class="copy-button" src="./img/copy.png" alt="copy-to-clipboard"></div>
+                <div class="copy-field hidden" onclick="copyToClipboard()" title="Copy to Clipboard"><img
+                        class="copy-button" src="./img/copy.png" alt="copy-to-clipboard"></div>
             </div>
             <button type="button" onclick="createPassword()">Generate Password!</button>
         </form>
